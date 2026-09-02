@@ -1,0 +1,101 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "en qué año pasó",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "numberSlot",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER"
+            }
+          ],
+          "samples": [
+            "año {numberSlot}",
+            "en el año {numberSlot}",
+            "es {numberSlot}",
+            "en {numberSlot}",
+            "la respuesta es el {numberSlot}",
+            "la respuesta es en el {numberSlot}",
+            "es el {numberSlot}",
+            "{numberSlot}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "RepeatIntent",
+          "slots": [],
+          "samples": [
+            "Vuelve a decirlo",
+            "Dime otra vez",
+            "Dime de nuevo",
+            "Repítemelo",
+            "Repite de nuevo",
+            "Repite"
+          ]
+        },
+        {
+          "name": "ClueIntent",
+          "slots": [],
+          "samples": [
+            "dame una pista",
+            "pistas",
+            "qué más se sabe de la pregunta",
+            "más información",
+            "pista",
+            "dime la pista"
+          ]
+        },
+        {
+          "name": "NextIntent",
+          "slots": [],
+          "samples": [
+            "siguiente cuestión",
+            "siguiente pregunta",
+            "siguiente letra",
+            "dime la siguiente",
+            "siguiente",
+            "siguiente palabra",
+            "paso palabra",
+            "pasa palabra"
+          ]
+        },
+        {
+          "name": "PendingIntent",
+          "slots": [],
+          "samples": [
+            "pendiente",
+            "cual era la pregunta pendiente",
+            "dime la pregunta pendiente",
+            "dime la pendiente"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
